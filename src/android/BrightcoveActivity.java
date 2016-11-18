@@ -1,4 +1,4 @@
-package com.nopattern.cordova.brightcoveplayer;
+package net.nopattern.cordova.brightcoveplayer;
 
 import android.content.Intent;
 import android.content.res.Resources;
