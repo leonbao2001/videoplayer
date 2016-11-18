@@ -1,4 +1,4 @@
-package com.nopattern.cordova.brightcoveplayer;
+package net.nopattern.cordova.brightcoveplayer;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
