@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="net.nopattern.cordova.brightcoveplayer"
+    id="com.nopattern.cordova.brightcoveplayer"
     version="1.1.0">
     <name>BrightcovePlayerPlugin</name>
     <description>Brightcove Native Player for Cordova</description>
@@ -21,7 +21,7 @@
       <framework src="com.google.android.gms:play-services-ads:+" />
       <config-file target="res/xml/config.xml" parent="/*">
       <feature name="BrightcovePlayerPlugin">
-        <param name="android-package" value="net.nopattern.cordova.brightcoveplayer.BrightcovePlayerPlugin" />
+        <param name="android-package" value="com.nopattern.cordova.brightcoveplayer.BrightcovePlayerPlugin" />
         <param name="onload" value="true" />
       </feature>
     </config-file>
@@ -31,7 +31,7 @@
           android:name="com.google.android.gms.version"
           android:value="@integer/google_play_services_version" />
       <activity
-          android:name="net.nopattern.cordova.brightcoveplayer.BrightcoveActivity"
+          android:name="com.nopattern.cordova.brightcoveplayer.BrightcoveActivity"
           android:configChanges="orientation|screenSize"
           android:screenOrientation="landscape"
           android:launchMode="singleTask"
