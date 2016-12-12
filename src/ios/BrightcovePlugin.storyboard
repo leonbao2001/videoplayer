@@ -23,7 +23,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRZ-Ds-BvB" userLabel="closeButton">
                                 <rect key="frame" x="0.0" y="0.0" width="60" height="27"/>
-                                <state key="normal" title="Zamknij">
+                                <state key="normal" title="Close">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
