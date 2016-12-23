@@ -307,7 +307,7 @@ NSString * progressString = nil;
         [self.playbackController pauseAd];
         [self clearInstance];
     }];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
